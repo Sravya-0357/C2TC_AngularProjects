@@ -1,0 +1,28 @@
+<div class="student-card">
+  <h1>🎓 Student Information</h1>
+
+  <div class="info-row">
+    <span class="label">👤 Name:</span>
+    <span class="value">{{ student.name }}</span>
+  </div>
+
+  <div class="info-row">
+    <span class="label">📍 Location:</span>
+    <span class="value">{{ student.location }}</span>
+  </div>
+
+  <div class="info-row">
+    <span class="label">🏫 College:</span>
+    <span class="value">{{ student.college }}</span>
+  </div>
+
+  <div class="info-row">
+    <span class="label">📅 Session Present:</span>
+    <span class="value">{{ student.sessionStatus ? '✅ Present' : '❌ Absent' }}</span>
+  </div>
+
+  <div class="info-row">
+    <span class="label">🎯 Batch Number:</span>
+    <span class="value">{{ student.batchNumber }}</span>
+  </div>
+</div>

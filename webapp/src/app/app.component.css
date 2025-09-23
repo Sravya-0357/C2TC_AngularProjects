@@ -1,0 +1,37 @@
+/* Container Card */
+.student-card {
+  width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #000;      /* Dark black border */
+  border-radius: 12px;          /* Rounded corners */
+  background-color: #ffffff;    /* White background */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15); /* Subtle shadow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+/* Heading */
+.student-card h1 {
+  color: #0077be;              /* Ocean blue */
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+/* Each info row */
+.info-row {
+  display: flex;
+  padding: 10px 0;
+}
+
+/* Label styling */
+.label {
+  font-weight: bold;
+  width: 180px;       /* Fixed width for labels */
+  color: #333;
+}
+
+/* Value styling */
+.value {
+  color: #000;
+}
